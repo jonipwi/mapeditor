@@ -1,0 +1,1647 @@
+{
+  "name": "My Game Map",
+  "size": 20,
+  "grid": [
+    [
+      {
+        "terrain": "grass",
+        "object": "player"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "player"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "player"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "chest"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "castle"
+      },
+      {
+        "terrain": "grass",
+        "object": "enemy"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": "rock"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": "enemy"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": "enemy"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "stone",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "player"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "tree"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "mountain",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": "tree"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "stone",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "castle"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "mountain",
+        "object": "castle"
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "mountain",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "stone",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "stone",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "stone",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "tree"
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "rock"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "mountain",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "mountain",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": "flag"
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": "enemy"
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "water",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "house"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "sand",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": "castle"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "chest"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "chest"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ],
+    [
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "forest",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "chest"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": "player"
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      },
+      {
+        "terrain": "grass",
+        "object": null
+      }
+    ]
+  ],
+  "timestamp": "2026-01-01T13:26:10.755Z"
+}

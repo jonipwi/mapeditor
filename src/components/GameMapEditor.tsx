@@ -34,29 +34,32 @@ const OBJECTS = {
   flag: { icon: '🚩', name: 'Flag' },
 };
 
-export default function GameMapEditor() {
-  const [grid, setGrid] = useState<Cell[][]>(() => 
-    Array(GRID_SIZE).fill(null).map(() => 
-      Array(GRID_SIZE).fill(null).map(() => ({ terrain: 'grass' as TerrainType, object: null as ObjectType }))
-    )
+const createEmptyGrid = () => 
+  Array(GRID_SIZE).fill(null).map(() => 
+    Array(GRID_SIZE).fill(null).map(() => ({ terrain: 'grass' as TerrainType, object: null as ObjectType }))
   );
+
+export default function GameMapEditor() {
+  const [grid, setGrid] = useState<Cell[][]>(createEmptyGrid);
   const [selectedTool, setSelectedTool] = useState<'terrain' | 'object' | 'eraser'>('terrain');
   const [selectedTerrain, setSelectedTerrain] = useState<TerrainType>('grass');
   const [selectedObject, setSelectedObject] = useState<Exclude<ObjectType, null>>('house');
   const [isDrawing, setIsDrawing] = useState(false);
   const [mapName, setMapName] = useState('My Game Map');
-  const canvasRef = useRef(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleCellInteraction = (row: number, col: number) => {
-    const newGrid = [...grid];
-    if (selectedTool === 'terrain') {
-      newGrid[row][col] = { ...newGrid[row][col], terrain: selectedTerrain };
-    } else if (selectedTool === 'object') {
-      newGrid[row][col] = { ...newGrid[row][col], object: selectedObject };
-    } else if (selectedTool === 'eraser') {
-      newGrid[row][col] = { terrain: 'grass' as TerrainType, object: null as ObjectType };
-    }
-    setGrid(newGrid);
+    setGrid(prevGrid => {
+      const newGrid = prevGrid.map(r => [...r]);
+      if (selectedTool === 'terrain') {
+        newGrid[row][col] = { ...newGrid[row][col], terrain: selectedTerrain };
+      } else if (selectedTool === 'object') {
+        newGrid[row][col] = { ...newGrid[row][col], object: selectedObject };
+      } else if (selectedTool === 'eraser') {
+        newGrid[row][col] = { terrain: 'grass' as TerrainType, object: null as ObjectType };
+      }
+      return newGrid;
+    });
   };
 
   const handleMouseDown = (row: number, col: number) => {
@@ -76,26 +79,41 @@ export default function GameMapEditor() {
 
   const clearMap = () => {
     if (confirm('Clear entire map?')) {
-      setGrid(Array(GRID_SIZE).fill(null).map(() => 
-        Array(GRID_SIZE).fill(null).map(() => ({ terrain: 'grass' as TerrainType, object: null as ObjectType }))
-      ));
+      setGrid(createEmptyGrid());
+      setMapName('My Game Map');
+      // Reset file input
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
     }
   };
 
   const saveMap = () => {
+    // Create a deep copy to ensure we're saving the current state
+    const gridCopy = grid.map(row =>
+      row.map(cell => ({
+        terrain: cell.terrain,
+        object: cell.object
+      }))
+    );
+    
     const mapData = {
       name: mapName,
       size: GRID_SIZE,
-      grid: grid,
+      grid: gridCopy,
       timestamp: new Date().toISOString()
     };
-    const blob = new Blob([JSON.stringify(mapData, null, 2)], { type: 'application/json' });
+    
+    const jsonString = JSON.stringify(mapData, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
     a.download = `${mapName.replace(/\s+/g, '_')}.json`;
     a.click();
     URL.revokeObjectURL(url);
+    
+    console.log('Map saved:', mapData.grid.length, 'rows,', mapData.grid[0].length, 'cols');
   };
 
   const loadMap = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -105,10 +123,23 @@ export default function GameMapEditor() {
       reader.onload = (event) => {
         try {
           const mapData = JSON.parse(event.target?.result as string);
-          setGrid(mapData.grid);
-          setMapName(mapData.name);
+          // Validate grid data
+          if (!mapData.grid || !Array.isArray(mapData.grid)) {
+            alert('Invalid grid data in file');
+            return;
+          }
+          // Ensure all cells have proper structure
+          const validatedGrid = mapData.grid.map((row: Cell[]) =>
+            row.map((cell: Cell) => ({
+              terrain: cell.terrain || 'grass',
+              object: cell.object || null
+            }))
+          );
+          setGrid(validatedGrid);
+          setMapName(mapData.name || 'Loaded Map');
+          console.log('Map loaded successfully:', validatedGrid.length, 'rows');
         } catch (error) {
-          alert('Error loading map file');
+          alert('Error loading map file: ' + (error instanceof Error ? error.message : 'Unknown error'));
         }
       };
       reader.readAsText(file);
@@ -116,9 +147,7 @@ export default function GameMapEditor() {
   };
 
   const generateMap = () => {
-    const newGrid: Cell[][] = Array(GRID_SIZE).fill(null).map(() => 
-      Array(GRID_SIZE).fill(null).map(() => ({ terrain: 'grass' as TerrainType, object: null as ObjectType }))
-    );
+    const newGrid: Cell[][] = createEmptyGrid();
 
     // Generate water bodies (lakes/rivers)
     const numWaterBodies = Math.floor(Math.random() * 3) + 1;
@@ -209,11 +238,9 @@ export default function GameMapEditor() {
       const col = Math.floor(Math.random() * GRID_SIZE);
       const terrain = newGrid[row][col].terrain;
       
-      // Don't place objects on water or if one already exists
       if (terrain !== 'water' && !newGrid[row][col].object) {
         let objectType: Exclude<ObjectType, null> | undefined;
         
-        // Place contextually appropriate objects
         if (terrain === 'forest') {
           objectType = Math.random() > 0.5 ? 'tree' : 'enemy';
         } else if (terrain === 'mountain' || terrain === 'stone') {
@@ -280,7 +307,7 @@ export default function GameMapEditor() {
             <label className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 cursor-pointer transition-colors">
               <Upload className="w-4 h-4" />
               <span className="hidden sm:inline">Import</span>
-              <input type="file" accept=".json" onChange={loadMap} className="hidden" />
+              <input ref={fileInputRef} type="file" accept=".json" onChange={loadMap} className="hidden" />
             </label>
           </div>
         </div>
